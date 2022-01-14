@@ -17,6 +17,8 @@ const Margen = styled.div`
     margin-top: 5rem;
 `;
 
+
+
 const Menu = () => {
     return (
 
@@ -31,7 +33,7 @@ const Menu = () => {
                                 <Card.Text>
                                     Podras encontrar un catalogo de todos los vehiculos.
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Button className='buttonMenu' variant="primary">Entrar</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -42,7 +44,7 @@ const Menu = () => {
                                 <Card.Text>
                                     Generar un contrato desde 0
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Button className='buttonMenu' variant="primary">Entrar</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -53,7 +55,7 @@ const Menu = () => {
                                 <Card.Text>
                                     Visualizar los clientes con arriendos activos.
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Button className='buttonMenu' variant="primary">Entrar</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -70,7 +72,7 @@ const Menu = () => {
                                         <Card.Text>
                                             Podras ver todos los contratos que estan activos, en detalle.
                                         </Card.Text>
-                                        <Button variant="primary">Go somewhere</Button>
+                                        <Button  className='buttonMenu' variant="primary">Entrar</Button>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -85,7 +87,7 @@ const Menu = () => {
                                             "VISTA SOLO PARA ADMIN" Agregar, Eliminar,Editar, O ver todos los
                                             usuarios que estan registrados en el sistema.
                                         </Card.Text>
-                                        <Button variant="primary">Go somewhere</Button>
+                                        <Button className='buttonMenu' variant="primary">Entrar</Button>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -94,12 +96,11 @@ const Menu = () => {
                             <div className='col'>
                                 <Card style={{ width: '18rem', height: '250px' }}>
                                     <Card.Body>
-                                        <Card.Title>Card Title</Card.Title>
+                                        <Card.Title>Estadisticas</Card.Title>
                                         <Card.Text>
-                                            Some quick example text to build on the card title and make up the bulk of
-                                            the card's content.
+                                            Estadisticas de las ganancias, perdidas, etc.
                                         </Card.Text>
-                                        <Button variant="primary">Go somewhere</Button>
+                                        <Button className='buttonMenu' variant="primary">Entrar</Button>
                                     </Card.Body>
                                 </Card>
                             </div>
