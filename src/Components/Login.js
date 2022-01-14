@@ -1,27 +1,67 @@
 import React from 'react'
 import { Button } from 'react-bootstrap';
 import styled from 'styled-components';
+import Menu from './Menu';
+import Cars from './Cars'
+
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+    Link,
+    useParams
+} from "react-router-dom";
+
+
 
 const Form = styled.div`
+    
+`;
+
+
+const Login1 = styled.div`
+    display: flex;
     align-items: center;
     justify-content: center;
-    align-content: center;
-    display: flex;
-    margin-top: 10rem;
-    
+
 `;
 
 const Login = () => {
     return (
         <>
-            <div>  
+
+            <Login1>
                 <Form>
-                    <h1>Inicio de sesion</h1>
-                    <input type="text" name="user"/> <br/> <br/> 
-                    <input type="password" name="pass"/>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                        <input type="text" class="form-control" id="user" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Entrar</button>
                 </Form>
-            </div>
+
+
+            </Login1>
+
+            <Link to="/Cars">
+                <button type="button">
+                    Listado de autos
+                </button> <br/>
+                
+            </Link>
+
+            <Link to="/Menu">
+            <button type="button">
+                     Menu
+                </button>
+            </Link>
+
         </>
+
+
     )
 }
 
