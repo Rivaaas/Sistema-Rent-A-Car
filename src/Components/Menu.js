@@ -38,7 +38,7 @@ const Menu = () => {
                         </Card>
                     </div>
                     <div className='col'>
-                        <Card style={{ width: '18rem' , height: '250px'}}>
+                        <Card style={{ width: '18rem', height: '250px' }}>
                             <Card.Body>
                                 <Card.Title>Contrato</Card.Title>
                                 <Card.Text>
@@ -55,7 +55,10 @@ const Menu = () => {
                                 <Card.Text>
                                     Visualizar los clientes con arriendos activos.
                                 </Card.Text>
-                                <Button className='buttonMenu' variant="primary">Entrar</Button>
+                                <div className='btn'>
+                                    <Button className='buttonMenu' variant="primary">Entrar</Button>
+                                </div>
+
                             </Card.Body>
                         </Card>
                     </div>
@@ -66,13 +69,13 @@ const Menu = () => {
                     <div className='row'>
                         <div className='col'>
                             <div className='col'>
-                                <Card style={{ width: '18rem' , height: '250px'}}>
+                                <Card style={{ width: '18rem', height: '250px' }}>
                                     <Card.Body>
                                         <Card.Title>Contratos Activos</Card.Title>
                                         <Card.Text>
                                             Podras ver todos los contratos que estan activos, en detalle.
                                         </Card.Text>
-                                        <Button  className='buttonMenu' variant="primary">Entrar</Button>
+                                        <Button className='buttonMenu' variant="primary">Entrar</Button>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -80,7 +83,7 @@ const Menu = () => {
                         <div className='col'>
                             <div className='col'>
                                 <Card style={{ width: '18rem', height: '250px' }}>
-                                   
+
                                     <Card.Body>
                                         <Card.Title>Usuarios</Card.Title>
                                         <Card.Text>

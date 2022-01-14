@@ -14,10 +14,13 @@ const Cards = styled.div`
     justify-content: center;
     justify-items: center;
     display: flex;
+    margin-top: 1rem;
+   
 `;
 
 const Fila = styled.div`
     margin-top: 3rem;
+    
 `;
 
 const Cars = () => {
@@ -27,7 +30,7 @@ const Cars = () => {
             <Cards>
                 <div className='row'>
                     <div className='col'>
-                        <Card style={{ width: '18rem' }}>
+                        <Card style={{ width: '17rem'}}>
                             <Card.Img variant="top" src={ImgCar} />
                             <Card.Body>
                                 <Card.Title>{"AUTO"}</Card.Title>
@@ -39,7 +42,7 @@ const Cars = () => {
                         </Card>
                     </div>
                     <div className='col'>
-                        <Card style={{ width: '18rem' }}>
+                        <Card style={{ width: '17rem' }}>
                             <Card.Img variant="top" src={ImgCar} />
                             <Card.Body>
                                 <Card.Title>{"AUTO"}</Card.Title>
@@ -51,7 +54,7 @@ const Cars = () => {
                         </Card>
                     </div>
                     <div className='col'>
-                        <Card style={{ width: '18rem' }}>
+                        <Card style={{ width: '17rem' }}>
                             <Card.Img variant="top" src={ImgCar} />
                             <Card.Body>
                                 <Card.Title>{"AUTO"}</Card.Title>
@@ -63,7 +66,7 @@ const Cars = () => {
                         </Card>
                     </div>
                     <div className='col'>
-                        <Card style={{ width: '18rem' }}>
+                        <Card style={{ width: '17rem' }}>
                             <Card.Img variant="top" src={ImgCar} />
                             <Card.Body>
                                 <Card.Title>{"AUTO"}</Card.Title>
@@ -77,7 +80,7 @@ const Cars = () => {
                     <Fila>
                         <div className='row'>
                             <div className='col'>
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '17rem' }}>
                                     <Card.Img variant="top" src={ImgCar} />
                                     <Card.Body>
                                         <Card.Title>{"AUTO"}</Card.Title>
@@ -89,7 +92,7 @@ const Cars = () => {
                                 </Card>
                             </div>
                             <div className='col'>
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '17rem' }}>
                                     <Card.Img variant="top" src={ImgCar} />
                                     <Card.Body>
                                         <Card.Title>{"AUTO"}</Card.Title>
@@ -101,7 +104,7 @@ const Cars = () => {
                                 </Card>
                             </div>
                             <div className='col'>
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '17rem' }}>
                                     <Card.Img variant="top" src={ImgCar} />
                                     <Card.Body>
                                         <Card.Title>{"AUTO"}</Card.Title>
@@ -113,7 +116,7 @@ const Cars = () => {
                                 </Card>
                             </div>
                             <div className='col'>
-                                <Card style={{ width: '18rem' }}>
+                                <Card style={{ width: '17rem' }}>
                                     <Card.Img variant="top" src={ImgCar} />
                                     <Card.Body>
                                         <Card.Title>{"AUTO"}</Card.Title>

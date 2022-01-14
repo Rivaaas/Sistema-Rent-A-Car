@@ -3,3 +3,10 @@
     display: flex;
     justify-content: center;
 }
+
+.btn{
+    
+    display: flex;
+    
+    position: relative;
+}
